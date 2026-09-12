@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ff_bg_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout android:id="@+id/menuNewTab" style="@style/MenuRow">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_more" />
+            <TextView style="@style/MenuTitle" android:text="@string/menu_new_tab" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/menuHome" style="@style/MenuRow">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_back" />
+            <TextView style="@style/MenuTitle" android:text="@string/menu_home" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/menuShare" style="@style/MenuRow">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_forward" />
+            <TextView style="@style/MenuTitle" android:text="@string/menu_share" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/menuCopyUrl" style="@style/MenuRow">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_more" />
+            <TextView style="@style/MenuTitle" android:text="@string/menu_copy_url" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/menuDesktopToggle" style="@style/MenuRow">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_more" />
+            <TextView style="@style/MenuTitle" android:text="@string/menu_desktop_toggle" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/menuRefresh" style="@style/MenuRow">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_reload" />
+            <TextView style="@style/MenuTitle" android:text="@string/menu_reload" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/menuCloseTab" style="@style/MenuRow">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_close" />
+            <TextView style="@style/MenuTitle" android:text="@string/menu_close_tab" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/ff_divider_dark"/>
+
+        <LinearLayout android:id="@+id/menuExit" style="@style/MenuRow">
+            <ImageView style="@style/MenuIcon" android:src="@drawable/ic_close" />
+            <TextView style="@style/MenuTitle" android:text="@string/menu_exit" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

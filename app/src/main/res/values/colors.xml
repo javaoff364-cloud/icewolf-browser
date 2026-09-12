@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Firefox light -->
+    <color name="ff_bg">#FFFFFF</color>
+    <color name="ff_surface">#F9F9FB</color>
+    <color name="ff_card">#F0F0F4</color>
+    <color name="ff_card_hover">#E0E0E5</color>
+    <color name="ff_text">#15141A</color>
+    <color name="ff_text_dim">#5B5B66</color>
+    <color name="ff_text_muted">#8F8F9D</color>
+    <color name="ff_border">#E0E0E5</color>
+    <color name="ff_url_bar">#F0F0F4</color>
+    <color name="ff_divider">#E0E0E5</color>
+    <color name="ff_accent">#0EA5E9</color>
+    <color name="ff_shield">#A67CF1</color>
+    <color name="ff_icon_tint">#5B5B66</color>
+
+    <!-- Firefox dark (asosiy) -->
+    <color name="ff_bg_dark">#1C1B22</color>
+    <color name="ff_surface_dark">#23222B</color>
+    <color name="ff_card_dark">#2B2A33</color>
+    <color name="ff_card_hover_dark">#3A3943</color>
+    <color name="ff_text_dark">#FBFBFE</color>
+    <color name="ff_text_dim_dark">#CFCFD8</color>
+    <color name="ff_text_muted_dark">#9A9AA5</color>
+    <color name="ff_border_dark">#3A3943</color>
+    <color name="ff_url_bar_dark">#2B2A33</color>
+    <color name="ff_divider_dark">#3A3943</color>
+    <color name="ff_accent_dark">#0EA5E9</color>
+    <color name="ff_icon_tint_dark">#CFCFD8</color>
+
+    <!-- Legacy (boshqa fayllar uchun) -->
+    <color name="chrome_bg">@color/ff_bg_dark</color>
+    <color name="chrome_text">@color/ff_text_dark</color>
+    <color name="chrome_text_dim">@color/ff_text_dim_dark</color>
+    <color name="chrome_hint">@color/ff_text_muted_dark</color>
+    <color name="chrome_divider">@color/ff_divider_dark</color>
+    <color name="url_bg_color">@color/ff_url_bar_dark</color>
+    <color name="icon_tint">@color/ff_icon_tint_dark</color>
+    <color name="accent">@color/ff_accent_dark</color>
+    <color name="section_header">@color/ff_accent_dark</color>
+</resources>

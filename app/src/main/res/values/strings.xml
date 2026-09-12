@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IceWolf</string>
+    <string name="url_hint">Qidiruv yoki URL</string>
+    <string name="back">Orqaga</string>
+    <string name="forward">Oldinga</string>
+    <string name="reload">Yangilash</string>
+    <string name="menu">Menyu</string>
+    <string name="tabs">Tablar</string>
+    <string name="new_tab">Yangi tab</string>
+
+    <string name="menu_title">Menyu</string>
+    <string name="menu_new_tab">Yangi tab</string>
+    <string name="menu_home">Bosh sahifa</string>
+    <string name="menu_reload">Yangilash</string>
+    <string name="menu_close_tab">Joriy tabni yopish</string>
+    <string name="menu_settings">Sozlamalar</string>
+    <string name="menu_exit">Chiqish</string>
+    <string name="menu_share">Sahifani ulashish</string>
+    <string name="menu_copy_url">Havolani nusxalash</string>
+    <string name="menu_find_in_page">Sahifadan topish</string>
+    <string name="menu_desktop_toggle">Desktop rejimi</string>
+
+    <string name="tabs_title">Tablar</string>
+    <string name="tabs_close">Yopish</string>
+    <string name="tabs_close_current">Joriy tabni yopish</string>
+    <string name="new_tab_label">Yangi tab</string>
+
+    <string name="settings">Sozlamalar</string>
+    <string name="history">Tarix</string>
+    <string name="downloads">Yuklab olishlar</string>
+    <string name="theme">Mavzu</string>
+    <string name="language">Til</string>
+    <string name="desktop_mode">Desktop rejimi</string>
+    <string name="incognito">Incognito</string>
+
+    <string name="dl_starting">Yuklab olinmoqda: %1$s</string>
+    <string name="dl_error">Xato: %1$s</string>
+    <string name="link_copied">Havola nusxalandi</string>
+</resources>
