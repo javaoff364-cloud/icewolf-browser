@@ -369,6 +369,14 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         applySettings();
     }
+    private void updateTopBarVisibility(String url) {
+        if (url == null) return;
+        boolean isIceWolf = url.contains(BASE_HOST);
+        if (topBar != null) {
+            topBar.setVisibility(isIceWolf ? View.GONE : View.VISIBLE);
+        }
+    }
+
 
     @Override
     public void onBackPressed() {
