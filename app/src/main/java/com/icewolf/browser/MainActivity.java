@@ -73,6 +73,7 @@ public class MainActivity extends AppCompatActivity {
     private FrameLayout tabsButton;
     private ImageButton menuBtn, moreBtn, micBtn, clearBtn;
     private LinearLayout urlBar;
+    private LinearLayout topBar;
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -93,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
         micBtn          = findViewById(R.id.micBtn);
         clearBtn        = findViewById(R.id.clearBtn);
         urlBar          = findViewById(R.id.urlBar);
+        topBar          = findViewById(R.id.topBar);
 
         // WebView settings
         WebSettings s = webView.getSettings();
@@ -130,6 +132,7 @@ public class MainActivity extends AppCompatActivity {
             }
             @Override
             public void onPageStarted(WebView view, String url, Bitmap favicon) {
+                updateTopBarVisibility(url);
                 progressBar.setVisibility(View.VISIBLE);
                 if (!urlInput.hasFocus()) urlInput.setText(url);
                 updateCurrentTab(url, null);
