@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:background="@color/ff_bg_dark">
 
-    <!-- ============ TOP BAR (Firefox) ============ -->
+    <!-- Top bar (hamburger YO'Q, faqat ⋮) -->
     <LinearLayout
         android:id="@+id/topBar"
         android:layout_width="match_parent"
@@ -13,18 +13,8 @@
         android:orientation="horizontal"
         android:gravity="center_vertical"
         android:background="@color/ff_bg_dark"
-        android:paddingStart="4dp"
+        android:paddingStart="8dp"
         android:paddingEnd="4dp">
-
-        <!-- Menu (hamburger) -->
-        <ImageButton
-            android:id="@+id/menuBtn"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@drawable/ic_menu"
-            android:scaleType="centerInside"
-            android:contentDescription="@string/menu" />
 
         <!-- URL bar -->
         <LinearLayout
@@ -32,8 +22,6 @@
             android:layout_width="0dp"
             android:layout_height="44dp"
             android:layout_weight="1"
-            android:layout_marginStart="4dp"
-            android:layout_marginEnd="4dp"
             android:orientation="horizontal"
             android:gravity="center_vertical"
             android:background="@drawable/url_bg"
@@ -79,23 +67,28 @@
         <!-- Tab counter -->
         <FrameLayout
             android:id="@+id/tabsButton"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="4dp"
             android:clickable="true"
             android:focusable="true"
             android:background="?attr/selectableItemBackgroundBorderless">
 
             <View
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
                 android:layout_gravity="center"
+                android:clickable="false"
+                android:focusable="false"
                 android:background="@drawable/tab_counter_bg" />
 
             <TextView
                 android:id="@+id/tabCount"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
                 android:layout_gravity="center"
+                android:clickable="false"
+                android:focusable="false"
                 android:gravity="center"
                 android:includeFontPadding="false"
                 android:text="1"

@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private TextView tabCountView;
     private FrameLayout tabsButton;
-    private ImageButton menuBtn, moreBtn, micBtn, clearBtn;
+    private ImageButton moreBtn, micBtn, clearBtn;
     private LinearLayout urlBar;
     private LinearLayout topBar;
 
@@ -89,7 +89,6 @@ public class MainActivity extends AppCompatActivity {
         progressBar     = findViewById(R.id.progressBar);
         tabCountView    = findViewById(R.id.tabCount);
         tabsButton      = findViewById(R.id.tabsButton);
-        menuBtn         = findViewById(R.id.menuBtn);
         moreBtn         = findViewById(R.id.moreBtn);
         micBtn          = findViewById(R.id.micBtn);
         clearBtn        = findViewById(R.id.clearBtn);
@@ -189,7 +188,6 @@ public class MainActivity extends AppCompatActivity {
             urlInput.requestFocus();
         });
         micBtn.setOnClickListener(v -> Toast.makeText(this, "Ovozli qidiruv — tez orada", Toast.LENGTH_SHORT).show());
-        menuBtn.setOnClickListener(v -> showMenu());
         moreBtn.setOnClickListener(v -> showMenu());
         tabsButton.setOnClickListener(v -> showTabsDialog());
 
